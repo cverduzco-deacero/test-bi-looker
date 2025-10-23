@@ -45,7 +45,7 @@ Las preguntas están divididas en **nivel básico, intermedio y avanzado** para 
 - d) No afecta en nada  
 
 6. ¿Qué hace el parámetro `drill_fields` en LookML?  
-- a) Define la creaciónd de una nueva dimensión  
+- a) Define la creación de una nueva dimension  
 - b) Permite al usuario ver detalles adicionales al hacer clic
 - c) Crea un join entre tablas  
 - d) Cambia la base de datos usada  
@@ -146,19 +146,21 @@ Se proporcionará un dataset con información de **ventas** que incluye:
 Enlace a dataset: https://docs.google.com/spreadsheets/d/12UQGro3dvy0mVCbDoYV4vYUSylsDcdGOwK0TwRcc77M/edit?gid=846895889#gid=846895889  
 
 ### Ejercicio en Looker Core
-1. Modelar una **view** y un **Explore** en LookML con dimensiones y medidas relevantes.   
-2. Incluir al menos:  
+1. Con base en el dataset, modelar una **view** y un **Explore** en LookML con dimensiones y medidas relevantes. 
+3. Incluir al menos:  
    - Medidas de ventas, costos y margen (%)  
    - Dimensiones de fecha, producto y región  
-   - Uso de `value_format`, `labels` y `group_labels`, entre otros. 
+   - Uso de `value_format`, `labels` y `group_labels`, entre otros.
+     
+**Nota:** El desarrollo de LookML se puede realizar en un archivo .docx o en el editor de código de tu preferencia.
 
 ### Ejercicio en Looker Studio
-1. Construir un **dashboard interactivo** con al menos:  
+1. Con base en el dataset, construir un **dashboard interactivo** con al menos:  
    - KPI de ventas y margen (%)  
    - Tendencia mensual de ventas  
    - Top 5 productos más vendidos  
    - Filtros por fecha, región y canal  
-2. Explicar brevemente en un documento cómo seleccionaste los KPIs y por qué.  
+2. Explicar brevemente en un documento cómo seleccionaste los KPIs y por qué. 
 
 ---
 
